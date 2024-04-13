@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
         left2.style="transform: translateX(-" + window.scrollY + "px)";
         right1.style="transform: translateX(" + window.scrollY + "px)";
         right2.style="transform: translateX(" + window.scrollY + "px)";
-        par_5.style="transform: translateY(-"+ top +"px)";
+        // par_5.style="transform: translateY(-"+ top +"px)";
         document.querySelector(".cir_btn2").classList.replace("cir_btn2","cir_btn1");
         
         document.querySelector(".cir_btn_main_big").classList.replace("cir_btn_main_big","cir_btn_main_small");
@@ -44,7 +44,7 @@ window.addEventListener("scroll", () => {
         left2.style="transform: translateX(-" + window.scrollY + "px)";
         right1.style="transform: translateX(" + window.scrollY + "px)";
         right2.style="transform: translateX(" + window.scrollY + "px)";
-        par_5.style="transform: translateY(-"+ top +"px)";
+        // par_5.style="transform: translateY(-"+ top +"px)";
         document.querySelector(".cir_btn1").classList.replace("cir_btn1","cir_btn2");
         // document.querySelector(".cir_rot").classList.toggle("dis_none");
         document.querySelector(".cir_btn_main_small").classList.replace("cir_btn_main_small","cir_btn_main_big");
